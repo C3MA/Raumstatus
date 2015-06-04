@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">C3MA Chaos im Quadrat</string>
+    <string name="app_name">Raumstatus</string>
+    <string name="service_name">RaumstatusService</string>
+    <string name="widget_text">C3MA Raumstatus</string>
+    <string name="widget_textState">...</string>
+    <string name="widget_textTimestamp">timestamp...</string>
+    <string name="widget_notification">Wer da?</string>
+    
+    <string name="widget_state_open">Offen</string>
+    <string name="widget_state_closed">Zu</string>
+    <string name="widget_state_old">Veraltet !</string>
+    
+    <string name="widget_state_updated">Aktualisiert:</string>
+    <string name="widget_state_outdated">Veraltet </string>
+    
+    <string name="widget_state_temp">°C</string>
+    
+	<color name="widget_color_open">#FF008209</color>
+	<color name="widget_color_closed">#FFFF0000</color>
+	<color name="widget_color_old">#FFFF0000</color>
+</resources>

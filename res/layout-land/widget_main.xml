@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+	android:orientation="horizontal"
+    android:layout_gravity="center_vertical" 
+    android:layout_height="wrap_content">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:stretchColumns="1"
+    android:layout_width="wrap_content"
+	android:orientation="vertical"
+    android:background="@drawable/widget_bg_normal" 
+    android:layout_gravity="center" 
+    android:layout_height="wrap_content">
+    
+
+<LinearLayout android:id="@+id/TableRow01" 
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal" android:layout_gravity="top|center_horizontal">
+				
+<TextView android:id="@+id/widget_textviewHeader" android:text="@string/widget_text" android:layout_height="wrap_content" android:layout_width="wrap_content" android:paddingLeft="10dip" android:paddingRight="10dip" android:textColor="@android:color/black" android:clickable="true" android:layout_gravity="top|center_horizontal"/><LinearLayout android:id="@+id/LinearLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_vertical|center">
+
+<TextView android:id="@+id/widget_textviewRoomstate" android:text="@string/widget_textState" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="center_horizontal|center" android:layout_marginTop="0dip" android:paddingLeft="10dip" android:paddingRight="10dip" android:textColor="@android:color/black" android:clickable="true" />
+<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/widget_key" android:background="@drawable/schluessel" android:visibility="visible"></ImageView>
+</LinearLayout>
+
+</LinearLayout>
+<LinearLayout 	android:id="@+id/TableRow02"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal">
+			
+			<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="horizontal" android:layout_gravity="center">
+    
+    	<ImageView android:id="@+id/imgOutside" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/weather_few_clouds"></ImageView>
+    	<TextView android:id="@+id/widget_textTempOutside" android:text="outside" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="center_horizontal|center" android:paddingLeft="2dip" android:paddingRight="2dip" android:textColor="@android:color/black" />
+		<ImageView android:id="@+id/imgInside" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/home"></ImageView>	    
+		<TextView android:id="@+id/widget_textTempInside" android:text="inside" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="center_horizontal|center" android:paddingLeft="2dip" android:paddingRight="2dip" android:textColor="@android:color/black" />
+    
+</LinearLayout><TextView android:id="@+id/widget_textviewTimestamp" android:text="@string/widget_textTimestamp" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="center_horizontal|center" android:layout_marginTop="0dip" android:paddingLeft="10dip" android:paddingRight="10dip" android:textColor="@android:color/black" android:clickable="true" />
+
+</LinearLayout>
+</LinearLayout>
+
+<ImageButton 	android:id="@+id/btnRefresh"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:background="@drawable/view_refresh" android:layout_gravity="right|center_vertical"></ImageButton>
+
+</LinearLayout>
+
